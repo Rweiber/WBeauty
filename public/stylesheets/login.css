@@ -1,0 +1,25 @@
+.formulario__campo {
+  width: 400px;
+  padding: 1em;
+  border: 1px solid var(--cinza-esverdeado);
+  border-radius: 10px;
+  text-align: center;
+  color: var(--cinza-esverdeado);
+}
+.formulario {
+  text-align: center;
+  color: var(--cinza-esverdeado);
+}
+h1 {
+  margin-bottom: 1.5em;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--cinza-esverdeado);
+}
+.botao__logar {
+  margin-top: 1.5em;
+}
+.p__login {
+  color: var(--cinza-esverdeado);
+  margin-bottom: 3em;
+}

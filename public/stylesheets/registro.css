@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+.titulo {
+  text-align: center;
+  margin-top: 3em;
+}
+.formulario__campo {
+  width: 400px;
+  padding: 1em;
+  border: 1px solid var(--cinza-esverdeado);
+  border-radius: 10px;
+}
+.botao__registrar {
+  height: 3em;
+  width: 150px;
+  font-family: var(--fonte-principal);
+  box-shadow: 1px 1px 4px 0px var(--cinza-esverdeado);
+  border-radius: 0 10px 10px 0;
+  border-width: 0;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}

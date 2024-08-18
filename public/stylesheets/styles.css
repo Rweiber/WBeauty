@@ -1,0 +1,26 @@
+@import url(./header.css);
+@import url(./carrossel.css);
+@import url(./banner.css);
+@import url(./footer.css);
+@import url(./login.css);
+@import url(./registro.css);
+
+:root {
+  /* --azul-degrade: linear-gradient(97.54deg, #002f52 35.49%, #326589 165.37%); */
+  --cor-de-fundo: #f9f9f9;
+  --cor-de-fundo-branco: #ffffff;
+  --fonte-principal: "poppins";
+  --fonte-secundaria: "Josefin Sans";
+  --preto: #000006;
+  --cinza-escuro: #0c2529;
+  --cinza-esverdeado: #28565e;
+  --cinza-azulado: #4d8f99;
+  --verde: #55a29e;
+}
+
+body {
+  background-color: var(--cor-de-fundo);
+  font-family: var(--fonte-principal);
+  font-size: 16px;
+  font-weight: 400;
+}

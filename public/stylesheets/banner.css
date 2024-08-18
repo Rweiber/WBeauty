@@ -1,0 +1,22 @@
+.banner {
+  margin: 0.5em 0;
+}
+
+.banner__img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    display: flex;
+    justify-content: center;
+  }
+  .banner__img {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1451px) {
+  .banner__img {
+    width: 50%;
+  }
+}
